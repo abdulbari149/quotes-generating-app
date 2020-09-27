@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/quotes.css" />
+</head>
+
+<body>
+    <div class="app">
+        <header id="header-quotes">
+            <div class="quotes-banner">
+                <a href="" class="banner">
+                    <img src="./title-quotes-3.jpg" alt="" class="banner-img">
+                </a>
+            </div>
+            <nav class="quotes-nav">
+                <a href="#container-quotes" id="getTheQuote" class="nav-link">Random Quotes</a>
+                <a href="#search-quotes" id="searchTheQuote" class="nav-link">Search Quotes</a>
+            </nav>
+        </header>
+        <main>
+            <section id="container-quotes">
+                <div class="quotes">
+                    <h2>Random Quotes</h2>
+                    <img src="./left-quotes-sign.png" alt="" class="quotationMarks">
+                    <div class="quotesText"></div>
+                    <div class="quotesAuthor"></div>
+                    <button type="button" id="quoteGenerator">New Quotes</button>
+                </div>
+            </section>
+            <section id="search-quotes">
+                <div class="form-quotes">
+                    <h2>Quote From The Author</h2>
+                    <form action="">
+                        <input
+                         type="text" 
+                         name="quotes" 
+                         id="searchField"
+                         placeholder="Get the Quote From Your Favourite Author."
+                         autocomplete="off"
+                         
+                        />
+                    </form>
+                    <ul class="recommendQuotes"></ul>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/app.js"></script>
+</body>
+
+</html>
